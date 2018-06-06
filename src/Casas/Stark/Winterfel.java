@@ -10,5 +10,9 @@ package Casas.Stark;
  * @author Margarita
  */
 public class Winterfel {
+
+    public Winterfel() {
+    }
+    
     
 }

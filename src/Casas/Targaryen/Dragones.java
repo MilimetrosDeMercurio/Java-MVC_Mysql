@@ -10,5 +10,9 @@ package Casas.Targaryen;
  * @author Margarita
  */
 public class Dragones {
+
+    public Dragones() {
+    }
+    
     
 }

@@ -10,5 +10,10 @@ package Casas.Lannister;
  * @author Margarita
  */
 public class Kingslanding {
+
+    public Kingslanding() {
+    }
+    
+    
     
 }

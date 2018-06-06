@@ -10,5 +10,9 @@ package Casas.Lannister;
  * @author Margarita
  */
 public class Soldados {
+
+    public Soldados() {
+    }
+    
     
 }
