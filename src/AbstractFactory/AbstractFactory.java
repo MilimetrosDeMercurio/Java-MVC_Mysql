@@ -11,6 +11,10 @@ package AbstractFactory;
  */
 public interface AbstractFactory {
     
+    public AbstractFactory Lannister(String tipo);
+    public AbstractFactory Stark(String tipo);
+    public AbstractFactory Targaryen(String tipo);
+    
     
     
     

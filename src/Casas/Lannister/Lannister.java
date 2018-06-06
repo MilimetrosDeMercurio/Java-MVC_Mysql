@@ -3,21 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Casas;
+package Casas.Lannister;
+
+import Casas.Casa;
 
 /**
  *
  * @author Margarita
  */
-public abstract class Stark extends Casa {
+public abstract class Lannister extends Casa{
+    
+    
 
-    public Stark() {
+    public Lannister() {
     }
     
     
-    
+    /**
+     * 
+     */
     @Override
     public abstract void guerra();
+    
+    
+    
+    
     
     
 }

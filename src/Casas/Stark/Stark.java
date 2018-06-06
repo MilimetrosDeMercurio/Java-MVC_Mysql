@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Casas;
+package Casas.Stark;
+
+import Casas.Casa;
 
 /**
  *
  * @author Margarita
  */
-public abstract class Targaryen extends Casa {
+public abstract class Stark extends Casa {
 
-    public Targaryen() {
+    public Stark() {
     }
     
     
