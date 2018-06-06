@@ -3,23 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Casas.Targaryen;
-
-import Casas.Casa;
+package Casas.Lannister;
 
 /**
  *
  * @author Margarita
  */
-public abstract class Targaryen extends Casa {
-
-    public Targaryen() {
-    }
-    
-    
-    
-    @Override
-    public abstract void guerra();
-    
+public class Soldados {
     
 }

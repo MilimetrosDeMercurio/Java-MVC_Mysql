@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Casas.Lannister;
+package Casas.Stark;
 
 import Casas.Casa;
 
@@ -11,23 +11,15 @@ import Casas.Casa;
  *
  * @author Margarita
  */
-public abstract class Lannister extends Casa{
-    
-    
+public abstract class Salvajes extends Casa {
 
-    public Lannister() {
+    public Salvajes() {
     }
     
     
-    /**
-     * 
-     */
+    
     @Override
     public abstract void guerra();
-    
-    
-    
-    
     
     
 }
