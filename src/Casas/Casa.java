@@ -5,13 +5,8 @@ package Casas;
  *
  * @author Margarita
  */
-public abstract class Casa {
+public interface Casa {
 
-    public Casa() {
-    }
-    
-   
-    
-    public abstract void guerra();
+  public  void guerra();
     
 }
