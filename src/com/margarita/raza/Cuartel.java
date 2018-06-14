@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Margarita
  */
-class Cuartel extends Edificacion {
+public class Cuartel extends Edificacion {
     
 //ATRIBUTOS
     
