@@ -50,6 +50,11 @@ public class Edificacion {
         this.utlimaFase = utlimaFase;
     }
     
+    public void crearEdificacion(int vida, int initialFase, int ultimaFase){
+        
+         
+         
+    }
     
     
     
