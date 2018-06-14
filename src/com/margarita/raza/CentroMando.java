@@ -1,6 +1,7 @@
 
 package com.margarita.raza;
 
+import com.margarita.raza.CentroMando.buildercentro;
 import com.margarita.raza.exceptions.MaximaCapacidadSuperada;
 
 /**
@@ -62,9 +63,24 @@ public class CentroMando extends Edificacion {
         
         this.nivel = nivel;
     }
+    
+    //PATRON BUILDER
 
-    public void setMr1(Edificacion laboratorio) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public static class buildercentro{
+        private int vida;
+        
+        public buildercentro vida(int vida){
+            this.vida = vida;
+            return this;
+        }
+        
+        
+    public CentroMando builder(){
+        return new CentroMando(vida);
+    }
+    
+    
+   
     }
 
     
