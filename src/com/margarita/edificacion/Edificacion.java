@@ -8,6 +8,9 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * tiene una vida principal para poder empezar edificaciones ,
+ * y muestra la fase de inicio y final
  */
 public class Edificacion {
 

@@ -8,6 +8,9 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * es la que me permite obtener la vida, poder realiar el metodo de ataque
+ * y el nombre de la edificacion central del jugador
  */
 public interface EdificacionCentral {
     

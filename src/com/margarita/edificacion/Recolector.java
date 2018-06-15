@@ -13,6 +13,10 @@ import com.margarita.edificacion.Edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * Es el recurso para poder recolectar
+ * y por defecto tiene cierta cantidad de vida para poder empezar a ser
+ * utilizado
  */
 public class Recolector<R> extends Edificacion {
     

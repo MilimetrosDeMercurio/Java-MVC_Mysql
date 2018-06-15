@@ -8,6 +8,10 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * Permite mostrar directamente cuales son mis edificaciones
+ * para poder recolectar recursos 
+ * 
  */
 public class FactoryEdificacion {
     

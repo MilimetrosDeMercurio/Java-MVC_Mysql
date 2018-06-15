@@ -12,6 +12,10 @@ import java.util.ArrayList;
 /**
  *
  * @author Margarita
+ * 
+ * clase cuartel, extiende de edificacion por que 
+ * es de donde se creara dichos cuarteles y presenta su capacidad maxima
+ * con la que empezaria el juego
  */
 public class Cuartel extends Edificacion {
     

@@ -4,6 +4,9 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * Tiene nombre y la cantidad con el que se estara pendiente 
+ * como va el jugador con sus recursos
  */
 public class Recurso {
 

@@ -8,6 +8,10 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * Es una de mis edificaciones que me permite 
+ * recolectar recursos para poder seguir en el juego y
+ * utilizarla en modo de ataque para poder defenderse
  */
 public class Torre implements EdificacionCentral {
 

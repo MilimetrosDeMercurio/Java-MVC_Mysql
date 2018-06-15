@@ -8,6 +8,9 @@ package com.margarita.edificacion;
 /**
  *
  * @author Margarita
+ * 
+ * Es otra que me permite recolectar cierto tipo de recurso
+ * y es creada a travez de edificacionCentral
  */
 public class Milicia implements EdificacionCentral {
 
