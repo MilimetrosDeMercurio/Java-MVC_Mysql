@@ -8,6 +8,9 @@ package com.margarita.Entrenar;
 /**
  *
  * @author Margarita
+ * 
+ * se utiliza una enumeracion para 
+ * ocupar mis soldados y escuadrones 
  */
 public enum TipoEntrenar {
     

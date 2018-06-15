@@ -8,6 +8,10 @@ package com.margarita.Entrenar;
 /**
  *
  * @author Margarita
+ * 
+ * Esta clase me define la estructura o elementos que 
+ * llevara cada soldado utilizado en el juego
+ * 
  */
 public class Soldado {
     

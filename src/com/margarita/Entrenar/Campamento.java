@@ -12,8 +12,9 @@ import java.util.ArrayList;
 
 
 /**
- *
- * @author Margarita
+ *Es la que me permite el entrenamiento de los escuadrones 
+ * definiendo su capacidad a la vez
+ * 
  */
 public class Campamento extends Edificacion{
     
@@ -46,6 +47,12 @@ public class Campamento extends Edificacion{
         this.escuadrones = escuadrones;
     }
     
+    
+    /**
+     *metodo reclutar y entrenar para cada uno de los soldados 
+     * y escuadrones que el jugador seleccionaria 
+     *
+     */
    
 //METODOS
     

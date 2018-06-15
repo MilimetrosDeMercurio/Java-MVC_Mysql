@@ -8,6 +8,10 @@ package com.margarita.Entrenar;
 /**
  *
  * @author Margarita
+ * 
+ *es la que le define la vida 
+ * y el nombre de cada uno 
+ * 
  */
 class Escuadrones {
     
