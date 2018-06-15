@@ -15,6 +15,9 @@ import static com.margarita.parcial2poo.Parcial2Poo.main;
 /**
  *
  * @author Margarita
+ * 
+ * Menu, es el que tiene el esqueleto para poder jugar el juego
+ * que se hizo aparte del main para hacerlo un poco mas ordenado
  */
 import com.margarita.raza.TipoRaza;
 import com.margarita.vehiculo.TipoVehiculo;

@@ -11,6 +11,9 @@ import java.util.Scanner;
 /**
  *
  * @author Margarita
+ * 
+ * es el menu del jugador 
+ * mostrara las opciones principales para el jugador
  */
 public class Jugador {
     

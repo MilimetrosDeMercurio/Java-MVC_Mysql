@@ -24,6 +24,8 @@ import java.util.Scanner;
 /**
  *
  * @author Margarita
+ * 
+ * Main, quien ejecutara todo para poder jugar
  */
 public class Parcial2Poo {
 
