@@ -10,6 +10,8 @@ import com.margarita.edificacion.Recurso;
 /**
  *
  * @author Margarita
+ * 
+ * Capacidad maxima que tiene para cada recurso
  */
 public class MaximaCapacidadSuperada  extends Exception{
     Recurso recurso;
