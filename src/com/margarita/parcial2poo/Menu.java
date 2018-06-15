@@ -5,11 +5,12 @@
  */
 package com.margarita.parcial2poo;
 
-import com.margarita.raza.Edificacion;
+import com.margarita.edificacion.Edificacion;
 import com.margarita.raza.Raza;
 import java.util.Scanner;
-import com.margarita.factorys.RazasFactory;
-import com.margarita.raza.Recurso;
+import com.margarita.raza.RazasFactory;
+import com.margarita.edificacion.Recurso;
+import static com.margarita.parcial2poo.Parcial2Poo.main;
 
 /**
  *
@@ -18,9 +19,9 @@ import com.margarita.raza.Recurso;
 import com.margarita.raza.TipoRaza;
 import com.margarita.vehiculo.TipoVehiculo;
 import com.margarita.vehiculo.Vehiculo;
-import com.margarita.factorys.VehiculoFactory;
+import com.margarita.vehiculo.VehiculoFactory;
 import com.margarita.raza.exceptions.MaximaCapacidadSuperada;
-import java.io.InputStream;
+
 import java.util.InputMismatchException;
 
 public class Menu {
@@ -149,11 +150,13 @@ public class Menu {
                 opcion = read.nextInt();
                 switch (opcion) {
                     case 1:
-                        //construir edificacion
+                    //construir edificacion
                         
 
                     case 2:
                     //crear milicia
+                        
+                       
 
                     case 3:
                     //entrenar milicia
@@ -175,7 +178,10 @@ public class Menu {
 
                 }
                 
-
+            }catch (InputMismatchException e) {
+                System.out.println(" Ingrese un numero por favor");
+                read.nextLine();
+                
             }
 
         }

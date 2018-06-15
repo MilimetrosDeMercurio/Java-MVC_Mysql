@@ -5,6 +5,9 @@
  */
 package com.margarita.raza;
 
+import com.margarita.edificacion.Edificacion;
+import com.margarita.Entrenar.CentroMando;
+import com.margarita.vehiculo.Vehiculo;
 import java.util.ArrayList;
 
 /**
@@ -14,11 +17,21 @@ import java.util.ArrayList;
 public class Raza {
 
     private CentroMando CentroMando;
-    private ArrayList<Edificacion> edificaciones;
-    private ArrayList<Vehiculo> vehiculos;
+    private ArrayList<Edificacion> edificaciones = new ArrayList();
+    private ArrayList<Vehiculo> vehiculos = new ArrayList();
 
+    public Raza() {
+//        edificaciones = new ArrayList();
+//        vehiculos = new ArrayList();
+    }
+
+    
     String nombre;
 
+    
+    public void agregarEdificacion(Edificacion edificio){
+        edificaciones.add(edificio);
+    }
     
     private String nombre() {
         return null;

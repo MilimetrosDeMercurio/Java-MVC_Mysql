@@ -1,8 +1,11 @@
 
-package com.margarita.raza;
+package com.margarita.Entrenar;
 
-import com.margarita.raza.CentroMando.buildercentro;
+import com.margarita.Entrenar.CentroMando.buildercentro;
+import com.margarita.edificacion.Edificacion;
+import com.margarita.edificacion.Recurso;
 import com.margarita.raza.exceptions.MaximaCapacidadSuperada;
+import com.margarita.vehiculo.Vehiculo;
 
 /**
  *
@@ -13,6 +16,7 @@ public class CentroMando extends Edificacion {
 //ATRIBUTOS
     int[] capacidad;
     Recurso mr1, mr2, mr3;
+    Vehiculo v1 , v2;
     String nivel;
     
 //CONSTRUCTOR
@@ -20,6 +24,22 @@ public class CentroMando extends Edificacion {
     public CentroMando(int vida) {
         super(vida);
         capacidad = new int[]{10000,5000,3000};
+    }
+
+    public Vehiculo getV1() {
+        return v1;
+    }
+
+    public void setV1(Vehiculo v1) {
+        this.v1 = v1;
+    }
+
+    public Vehiculo getV2() {
+        return v2;
+    }
+
+    public void setV2(Vehiculo v2) {
+        this.v2 = v2;
     }
     
  
@@ -63,7 +83,8 @@ public class CentroMando extends Edificacion {
         
         this.nivel = nivel;
     }
-    
+
+   
     //PATRON BUILDER
 
     public static class buildercentro{

@@ -44,10 +44,13 @@ public class Jugador {
         switch(a){
             case 1:
                 opcionesVehiculos();
+                break;
             case 2:
                 opcionesVehiculos();
+                break;
                 
         }
+        
                
         
     }

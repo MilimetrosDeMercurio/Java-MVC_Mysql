@@ -5,6 +5,9 @@
  */
 package com.margarita.raza;
 
+import com.margarita.raza.Raza;
+import com.margarita.raza.TipoRaza;
+
 /**
  *
  * @author Margarita

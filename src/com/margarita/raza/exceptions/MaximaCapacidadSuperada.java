@@ -5,7 +5,7 @@
  */
 package com.margarita.raza.exceptions;
 
-import com.margarita.raza.Recurso;
+import com.margarita.edificacion.Recurso;
 
 /**
  *
