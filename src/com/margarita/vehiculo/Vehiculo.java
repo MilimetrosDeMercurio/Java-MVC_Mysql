@@ -8,6 +8,9 @@ package com.margarita.vehiculo;
 /**
  *
  * @author Margarita
+ * 
+ * Es el esqueleto de cada vehiculo que tendra por defecto sin importar 
+ * que tipo de vehiculo sea escojido
  */
 public class Vehiculo {
     

@@ -11,6 +11,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Margarita
+ * Donde se crean los autos 
  */
 //Donde se crean los autos
 public class Consencionario extends Edificacion{
