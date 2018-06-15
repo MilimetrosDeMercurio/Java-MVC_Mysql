@@ -13,6 +13,8 @@ import java.util.ArrayList;
 /**
  *
  * @author Margarita
+ * 
+ * todo lo que tiene cada raza, a la hora de jugar 
  */
 public class Raza {
 

@@ -10,6 +10,10 @@ import com.margarita.vehiculo.Vehiculo;
 /**
  *
  * @author Margarita
+ * 
+ * Donde se encuentra la capacidad y cada uno de los recursos
+ * y el nivel, las cantidades de los recuros ya estan establecidas para tener una 
+ * base antes de empezar
  */
 public class CentroMando extends Edificacion {
     
